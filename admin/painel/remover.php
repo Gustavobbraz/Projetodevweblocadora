@@ -12,7 +12,7 @@
 
             echo "<script> alert ('VEICULO EXCLUIDO COM SUCESSO!');</script>";
 
-            echo "<script> window.location.href='$url_admin/painel/exibir.php';</script>";
+            echo "<script> window.location.href='$url_admin/admin/painel/exibir.php';</script>";
 
         } else {
 
