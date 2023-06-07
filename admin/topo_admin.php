@@ -9,7 +9,7 @@
 
 		echo "<script> alert ('ERRO: É NECESSÁRIO FAZER LOGIN');</script>";
 		
-		echo "<script> window.location.href='http://localhost/Loginlocadora';</script>";
+		echo "<script> window.location.href='https://benderlocadora.herokuapp.com';</script>";
 
 	}	
 
@@ -26,7 +26,7 @@
 		unset ($_SESSION['url_admin']);
 		unset ($_SESSION['url_cliente']);
 
-		echo "<script> window.location.href='http://localhost/Loginlocadora';</script>";				
+		echo "<script> window.location.href='https://benderlocadora.herokuapp.com';</script>";				
 
 	} 
 
@@ -56,15 +56,15 @@
     <nav id="menu-h">
         <ul>
 			<!--PAINEL COM LINK PARA OUTRAS PAGINAS-->
-            <li><a href="http://localhost:8080/Loginlocadora/admin/topo_admin.php">Home</a></li>
-            <li><a href="http://localhost:8080/Loginlocadora/admin/painel/cadastro.php">Cadastrar</a></li> 
+            <li><a href="https://benderlocadora.herokuapp.com/admin/topo_admin.php">Home</a></li>
+            <li><a href="https://benderlocadora.herokuapp.com/admin/painel/cadastro.php">Cadastrar</a></li> 
             
-            <li><a href="http://localhost:8080/Loginlocadora/admin/painel/exibir.php">Consultar</a></li>
+            <li><a href="https://benderlocadora.herokuapp.com/admin/painel/exibir.php">Consultar</a></li>
 
 
-            <li><a href="http://localhost:8080/Loginlocadora/admin/painel/alugado.php">Pedidos</a></li>
+            <li><a href="https://benderlocadora.herokuapp.com/admin/painel/alugado.php">Pedidos</a></li>
 
-            <li><a href="http://localhost:8080/Loginlocadora/sair.php">Logout</a></li>
+            <li><a href="https://benderlocadora.herokuapp.com/admin/sair.php">Logout</a></li>
         </ul>
     </nav>
 
