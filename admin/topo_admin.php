@@ -63,7 +63,7 @@
 
             <li><a href="https://benderlocadora.herokuapp.com/admin/painel/alugado.php">Pedidos</a></li>
 
-            <li><a href="https://benderlocadora.herokuapp.com/admin/sair.php">Logout</a></li>
+            <li><a href="https://benderlocadora.herokuapp.com/sair.php">Logout</a></li>
         </ul>
     </nav>
 
