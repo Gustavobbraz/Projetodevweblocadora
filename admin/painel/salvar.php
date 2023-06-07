@@ -33,7 +33,7 @@ if (isset($_POST['codigo_veiculo'])) {
     mysqli_query($conexao, $update_veiculo);
 
     echo "<script> alert ('VEICULO ATUALIZADO COM SUCESSO!');</script>";
-    echo "<script> window.location.href='$url_admin/veiculos/consultar.php';</script>";
+    echo "<script> window.location.href='$url_admin/painel/consultar.php';</script>";
 
 } else if (isset($_POST['descricao_veiculo'])) {
     $descricao_veiculo = $_POST['descricao_veiculo'];

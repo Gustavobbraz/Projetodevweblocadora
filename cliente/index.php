@@ -13,7 +13,7 @@
 <?php
 require('../conexao.php');
 
-$imagem_veiculo = "http://localhost:8080/Loginlocadora/upload/";
+$imagem_veiculo = "../upload";
 
 $select_veiculo = mysqli_query($conexao, "SELECT * FROM veiculo ORDER BY codigo_veiculo ASC");
 
