@@ -45,9 +45,8 @@
     <!--LINK DO ARQUIVO Estilo.CSS-->
     <link rel='stylesheet' type='text/css' media='screen' href='../css/Estilo.css'>
     
-    <style>
 
-    </style>
+    
 </head>
 
 <!--CORPO DA PAGINA-->
