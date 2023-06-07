@@ -50,7 +50,7 @@
 
         $codigo_veiculo = $_GET['codigo_veiculo'];
 
-        $imagem_veiculo = "http://localhost:8080/Loginlocadora/upload/";
+        $imagem_veiculo = "../upload/";
 
         $select_veiculo = mysqli_query($conexao, "SELECT * FROM veiculo WHERE codigo_veiculo = $codigo_veiculo");
 
