@@ -49,9 +49,9 @@ h1{
         <ul>
             <!--PAINEL COM LINK PARA OUTRAS PAGINAS-->
             <li>
-                <a href="http://localhost:8080/Loginlocadora/admin/topo_admin.php">Home</a></li>
-            <li><a href="http://localhost:8080/Loginlocadora/admin/painel/exibir.php">Consultar</a></li>       
-            <li><a href="http://localhost:8080/Loginlocadora/">Logout</a></li>       
+                <a href="https://benderlocadora.herokuapp.com/admin/topo_admin.php">Home</a></li>
+            <li><a href="https://benderlocadora.herokuapp.com/admin/painel/exibir.php">Consultar</a></li>       
+            <li><a href="https://benderlocadora.herokuapp.com">Logout</a></li>       
         </ul>
     </nav>
 	
