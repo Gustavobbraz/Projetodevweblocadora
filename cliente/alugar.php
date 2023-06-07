@@ -20,7 +20,7 @@
             $insert_query = "INSERT INTO aluguel (data_retirada, local_retirada, codigo_veiculo, descricao, marca, modelo, ano) VALUES ('$data_retirada', '$local_retirada', '$codigo_veiculo', '$descricao', '$marca', '$modelo', '$ano')";
 
             if (mysqli_query($conexao, $insert_query)) {
-                echo "<script> alert ('Dados inseridos com sucesso no banco de dados.');</script>";
+                echo "<script> alert ('Veiculo solicitado com sucesso.');</script>";
                 echo "<script> window.location.href='$url_cliente/index.php';</script>";
             } else {
                 echo "Erro ao inserir dados no banco de dados: " . mysqli_error($conexao);
